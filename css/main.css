@@ -1,0 +1,47 @@
+
+
+
+.axis path {
+    fill: none;
+    stroke: #B40486;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-size: 13px;
+}
+
+.d3-tip {
+line-height: 1;
+font-weight: bold;
+padding: 12px;
+background-color: black;
+color: white;
+border-radius: 2px;
+}
+     
+.datapoint:hover{
+	fill: black;
+}
+
+.legend { 
+    list-style: none;  
+     position: absolute;
+    top: 100px;
+    right: 400px;   
+}
+
+.legend li { float: left; margin-right: 10px; 
+}
+
+.legend span { border: 1px solid #ccc; float: left; width: 12px; height: 12px; margin: 2px; 
+}
+
+.legend .White { background-color: #04B431; 
+}
+
+.legend .Black { background-color: #8A0886; 
+}
+
+.legend .Hispanic { background-color: #FF8000; 
+}
